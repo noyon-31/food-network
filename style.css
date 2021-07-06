@@ -6,16 +6,17 @@ h1{
     font-size: 50px;
     margin: 5px 0;
 }
-#orange-color{
+.orange-color{
     color: orange;
 }
-section{
+.flex{
     display: flex;
 }
-div{
+.adjust{
     width: 50%;
     margin: 50px;
     padding: 10px;
+    
 }
 .link{
     background-image: linear-gradient(orange,orangered);
@@ -27,6 +28,7 @@ div{
     border-bottom-left-radius: 20% 50%;
     border-top-right-radius: 20% 50%;
     border-bottom-right-radius: 20% 50%;
+
     
 }
 .margin{
@@ -37,10 +39,56 @@ div{
     margin-left: 50px;
 }
 h2{
-    font-size: 50px;
+    font-size: 40px;
 }
 #personal-info{
     background-image: url(image/bg-body.png);
     background-position:center;
     background-repeat: no-repeat;
+}
+#text-center{
+    text-align: center;
+    padding: 0 30%;
+}
+.img-adjust{
+    width:70%;
+}
+#recipie{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.column{
+   
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+}
+#extra{
+    background-color: whitesmoke;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px whitesmoke;
+    justify-content: space-evenly;
+    
+}
+
+#last{
+    background-color: #09091f;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+h3{
+    font-weight: 700;
+    font-size: 2em;
 }

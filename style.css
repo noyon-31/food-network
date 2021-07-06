@@ -1,0 +1,29 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color:#5a5a5a;
+    background-image: url(image/bg-body.png);
+}
+h1{
+    font-size: 50px;
+    margin: 5px 0;
+}
+#orange-color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+div{
+    width: 50%;
+    margin: 50px;
+    padding: 10px;
+}
+.gradient{
+    background-color: orange;
+    border: 20px orange solid;
+    border-radius: 10px;
+    
+}
+#margin{
+    margin-top: 200px;
+}

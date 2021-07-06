@@ -17,10 +17,16 @@ div{
     margin: 50px;
     padding: 10px;
 }
-.gradient{
-    background-color: orange;
-    border: 20px orange solid;
-    border-radius: 10px;
+.link{
+    background-image: linear-gradient(orange,orangered);
+    padding: 20px 40px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    border-top-left-radius: 20% 50%;
+    border-bottom-left-radius: 20% 50%;
+    border-top-right-radius: 20% 50%;
+    border-bottom-right-radius: 20% 50%;
     
 }
 .margin{
